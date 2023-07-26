@@ -1,0 +1,19 @@
+.resizable-layout {
+    display: flex;
+}
+
+.column {
+    padding: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.resize-handle {
+    width: 5px;
+    cursor: col-resize;
+    background-color: #eee;
+}
+
+.resize-handle:hover {
+    background-color: #ddd;
+}
